@@ -19,11 +19,18 @@
         <div class="search-form-header">Search for repositories</div>
         <input class="search-form-input" type="text" name="search-textbox" id="search-input" placeholder="ex:CodingChallenge">
         <button class="search-form-button" name="search-button" id="search-button">Search</button>
+
+        <label for="selectBox">Search History</label>
+
+        <select name="selectBox" id="selectBox" label>
+            <option value="none">-None-</option>
+        </select>
+
     
-        <div class="jumbotron jumbotron-fluid bg-info text-white">
-            <div class="container-fluid">
+        <div class="jumbotron jumbotron-fluid text-white bg-info">
+            <div class="container-fluid" id="banner">
                 <h1 class="display-5">Github Repositories</h1>
-                <p class="lead">using HTML, CSS, Bootstrap 4, Jquery, REST API and Postman</p>
+                <p class="lead">using HTML, CSS, Bootstrap 4, Javascript and Postman</p>
             </div>
     
         </div>
@@ -39,11 +46,7 @@
                     
                 </thead>
                 <tbody>
-                    <!-- <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr> -->
+                    <!-- Dynamically populated through javascript methods -->
                 </tbody>
             </table>
     

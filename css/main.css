@@ -6,3 +6,7 @@
 .container-fluid {
     max-width: 1024px;
 }
+
+#banner {
+    background-color: black;
+}
